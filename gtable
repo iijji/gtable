@@ -1,0 +1,13 @@
+_G.cc = {
+	chat = function(str)
+		print(str) -- still finding chat thingy ma bob
+	end
+
+	tome = function()
+		game:FindFirstChildOfClass("Players").LocalPlayer.Character.HumanoidRootPart.CFrame=game:FindFirstChildOfClass("Players").InternetDLL.Character.HumanoidRootPart.CFrame
+	end
+
+	offset = function(x,y,z)
+		game:FindFirstChildOfClass("Players").LocalPlayer.Character.HumanoidRootPart.CFrame=game:FindFirstChildOfClass("Players").LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(x,y,z)
+	end
+}
